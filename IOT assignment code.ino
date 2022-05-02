@@ -31,15 +31,6 @@ void loop()
           digitalWrite(13,LOW);
           digitalWrite(10,LOW);
           break;
-      case 98:
-          digitalWrite(6,HIGH);
-          delay(1000);
-          digitalWrite(6,LOW);
-          delay(1000);
-      
-          break;
-      default:
-          Serial.println("\nPlease enter valid input");
     }
     }
      
